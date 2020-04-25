@@ -1,0 +1,15 @@
+import numpy as np
+
+mas = np.zeros(10, dtype=int)
+mas = np.random.random((5, 5)) * 25
+mas = np.random.normal(0, 5, (5, 5))
+# mas = np.random.randint(0, 2, (500000, 500000))
+
+print(mas)
+
+# Атрибуты массива
+m = np.random.randint(10, size=(3, 4, 5))
+
+print(m.ndim)
+print(m.shape)
+print(m.size)
